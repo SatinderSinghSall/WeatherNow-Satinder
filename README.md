@@ -8,7 +8,7 @@
 The `WeatherNow` app is a modern, user-friendly weather application designed to provide real-time weather information based on city input. It allows users to search for current weather data such as temperature, humidity, and weather conditions. The app also features a theme toggle that switches between dark and light modes to suit user preferences.
 
 ---
-**Check out the web-app, live deployed over the internet: deployment is in progress.../**
+**Check out the web-app, live deployed over the internet: deployment is in progress...**
 ---
 
 ### **Key Features**:
