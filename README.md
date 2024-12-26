@@ -9,6 +9,15 @@ The `WeatherNow` app is a modern, user-friendly weather application designed to 
 
 ---
 **Check out the web-app, live deployed over the internet: https://weathernow-satinder.onrender.com/** 🚀
+
+App Preview:
+
+![Screenshot (43)](https://github.com/user-attachments/assets/acaccda2-9aa9-4edb-bb0a-4721fdbfbe06)
+
+![Screenshot (44)](https://github.com/user-attachments/assets/1c45f6c3-7ecf-4ffe-972a-0bf2e378813d)
+
+![Screenshot (45)](https://github.com/user-attachments/assets/46e9edd2-8b2c-4c31-9148-ab9b3a3fd198)
+
 ---
 
 ### **Key Features**:
