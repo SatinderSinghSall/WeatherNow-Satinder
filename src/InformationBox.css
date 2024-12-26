@@ -1,0 +1,168 @@
+/* Container styling */
+.information-box {
+  max-width: 600px;
+  margin: 20px auto;
+  margin-bottom: 50px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #2b2d42, #8d99ae);
+  color: #edf2f4;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+/* City name styling */
+.city-name {
+  padding: 12px;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  background-color: #3d5a80;
+  color: #e0fbfc;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Title styling */
+.information-box h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ff9f1c;
+}
+
+/* Weather info card */
+.weather-info {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+  background-color: #3d5a80;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  margin-top: 35px;
+}
+
+.weather-info:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Card Content */
+.card-content {
+  font-size: 1.1rem;
+  color: #e0fbfc;
+  line-height: 1.8;
+  text-align: left;
+  padding: 25px;
+}
+
+/* Typography for card title */
+.card-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ff9f1c;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+/* Weather Info Text */
+.weather-info-text {
+  color: #000000;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.weather-info-text span {
+  padding: 10px 20px;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.weather-info-text span:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+/* Descriptive paragraph styling */
+.card-description {
+  font-size: 1.1rem;
+  color: #000000;
+  margin-top: 20px;
+  font-weight: 400;
+  line-height: 1.8;
+  text-align: left;
+}
+
+/* Actions section inside card */
+.card-actions {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+/* Button styling */
+.card-actions button {
+  background-color: #ff9f1c;
+  color: #2b2d42;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  padding: 12px 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.card-actions button:hover {
+  background-color: #e63946;
+  transform: translateY(-3px);
+  color: #fff;
+}
+
+/* Footer styling */
+.footer {
+  margin-top: 40px;
+  color: #d3d3d3;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 15px 0;
+  border-top: 1px solid #44475a;
+}
+
+.footer:hover {
+  color: #ffffff;
+}
+
+/* Card Media */
+.MuiCardMedia-root {
+  border-bottom: 3px solid #ff9f1c;
+}
+
+/* Responsive Text Sizes for Mobile */
+@media (max-width: 768px) {
+  .card-content {
+    padding: 20px;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+  }
+
+  .weather-info-text {
+    font-size: 0.95rem;
+  }
+
+  .card-description {
+    font-size: 1rem;
+  }
+}

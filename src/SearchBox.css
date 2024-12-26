@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+  overflow-x: hidden;
+}
+
+/* Background Gradient */
+body.dark-mode {
+  background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+  color: #f0f0f0;
+}
+
+body.light-mode {
+  background: linear-gradient(135deg, #f8f9fa, #e8eff1, #ffffff);
+  color: #333333;
+}
+
+/* Main Box Styling */
+.main-box {
+  max-width: 450px;
+  margin: 60px auto;
+  text-align: center;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #6c63ff;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 25px;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.MuiTextField-root {
+  width: 100%;
+}
+
+.MuiButton-root {
+  padding: 12px 18px;
+  font-size: 1rem;
+  border-radius: 8px;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.MuiButton-root:hover {
+  transform: scale(1.04);
+}
+
+.search-btn {
+  background-color: #6c63ff;
+  color: #ffffff;
+}
+
+.search-btn:hover {
+  background-color: #5348c7;
+}
+
+.theme-toggle-btn {
+  margin-bottom: 20px;
+  background-color: #fcbf49;
+  color: #333333;
+}
+
+.theme-toggle-btn:hover {
+  background-color: #f77f00;
+}
+
+/* Error Message */
+.error-message {
+  color: #ff4c4c;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .main-box {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
